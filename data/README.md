@@ -9,13 +9,13 @@ The dataset is organized as follows:
 
 data/
 ├── train/
-│   ├── graphs/          # Graph files (.edgelist and .graphml)
-│   └── descriptions/    # Corresponding textual descriptions (.txt)
+│ ├── graphs/ # Graph files (.edgelist and .graphml)
+│ └── descriptions/ # Corresponding textual descriptions (.txt)
 ├── valid/
-│   ├── graphs/
-│   └── descriptions/
+│ ├── graphs/
+│ └── descriptions/
 └── test/
-    └── test.txt         # Only descriptions (no ground-truth graphs)
+└── test.txt # Only descriptions (no ground-truth graphs)
 
 ## Details
 
