@@ -133,12 +133,10 @@ samples = sample(
   Guo, X., Zhao, L. (2020).  
   [https://arxiv.org/abs/2007.06686](https://arxiv.org/abs/2007.06686)
 
-## License
-This project is licensed under the [MIT License](LICENSE).
-
-
 - **A Survey on Deep Graph Generation: Methods and Applications**  
   Zhu, Y., Du, Y., Wang, Y., Xu, Y., Zhang, J., Liu, Q., Wu, S. (2022).  
   [https://arxiv.org/abs/2203.06714](https://arxiv.org/abs/2203.06714)
 
 
+## License
+This project is licensed under the [MIT License](LICENSE).
