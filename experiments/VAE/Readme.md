@@ -9,7 +9,7 @@ This repository contains code and experiments integrating **Variational Autoenco
 ├── autoencoder.py         # Graph-based VAE Encoder & Decoder using GIN
 ├── denoise_model.py       # Diffusion-based denoising model and loss functions
 ├── extract_feats.py       # Utility to extract stats and download data
-├── train_vae.py           # Train VAE and optionally use denoising diffusion
+├── main.py           # Train VAE and optionally use denoising diffusion
 ├── utils.py               # Helper functions (sampling, loss tracking, etc.)
 ├── data/                  # Folder created dynamically with graph data
 └── README.md              # Project documentation
