@@ -106,7 +106,14 @@ samples = sample(
 - Implements a denoising diffusion probabilistic model for graph data.
 - Generates graph samples by gradually denoising latent vectors.
 
-## References
+## Experimental Models
+
+Additional models and experiments can be found in the [`experiments/`](experiments/) folder:
+
+- [`experiments/VAE/`](experiments/VAE/): Variational Autoencoder-based model.
+- [`experiments/normalizing_flow/`](experiments/normalizing_flow/): Model using normalizing flows.
+
+
 ## References
 
 - **Graph Transformer Networks**  
