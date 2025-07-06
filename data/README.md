@@ -6,18 +6,17 @@ This dataset consists of graphs and their corresponding textual descriptions. Th
 ## Directory Structure
 
 The dataset is organized as follows:
-
+```
 data/
-- train/
-  - graphs/          # Graph files (.edgelist and .graphml)
-  - descriptions/    # Corresponding textual descriptions (.txt)
-- valid/
-  - graphs/
-  - descriptions/
-- test/
-  - test.txt        # Only descriptions (no ground-truth graphs)
-
-
+├── train/
+│   ├── graphs/          # Graph files (.edgelist and .graphml)
+│   └── descriptions/    # Corresponding textual descriptions (.txt)
+├── valid/
+│   ├── graphs/
+│   └── descriptions/
+└── test/
+    └── test.txt         # Only descriptions (no ground-truth graphs)
+```
 ## Details
 
 1. **Training Set**
