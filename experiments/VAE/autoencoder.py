@@ -107,7 +107,7 @@ class VariationalAutoEncoder(nn.Module):
     def decode(self, mu, logvar):
        x_g = self.reparameterize(mu, logvar)
        adj = self.decoder(x_g)
-       return adj
+       return       
 
     def decode_mu(self, mu):
        adj = self.decoder(mu)
@@ -133,4 +133,4 @@ class VariationalAutoEncoder(nn.Module):
         #loss = l1_weight*recon_loss + beta*kld + l2_loss  #recon_loss + beta*kld + l2_weight * l2_loss
 
 
-        return loss, recon_loss, kld
+        return loss, recon_loss, kld        
